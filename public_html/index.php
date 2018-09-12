@@ -35,7 +35,7 @@
 			    <label class="form-check-label" for="exampleCheck1">Check me out</label>
 			  </div>
 			  <button type="submit" class="btn btn-primary"><i class="fa fa-lock">&nbsp;</i>Log In</button>
-			  <span><a href="#">Register</a></span>
+			  <span><a href="register.php">Register</a></span>
 			</form>
 		  </div>
 		  <div class="card-footer"><a href="#">Forget Passwor ?</a></div>
