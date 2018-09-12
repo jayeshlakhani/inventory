@@ -1,4 +1,3 @@
-
 <div class="clock_container">
 	<div id="myclock"></div>
 	<div id="alarm1" class="alarm"><a href="javascript:void(0)" id="turnOffAlarm">ALARM OFF</a></div>
@@ -34,10 +33,7 @@
 					audioElement.loop = true;
 					audioElement.play();
 				}, false);
-			},
-			showNumerals:true,
-			brandText:'THOOYORK',
-			brandText2:'Germany',
+			},	
 			onEverySecond:function(){
 				//callback that should be fired every second
 			},
