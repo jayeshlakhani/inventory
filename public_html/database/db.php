@@ -1,17 +1,31 @@
-<?php 	
+<?php 
 
-$localhost = "localhost";
-$username = "root";
-$password = "";
-$dbname = "inventory";
+/**
+ * 
+ */
 
-// db connection
-$connect = new mysqli($localhost, $username, $password, $dbname);
-// check connection
-if($connect->connect_error) {
-  die("Connection Failed : " . $connect->connect_error);
-} else {
-  // echo "Successfully connected";
+class Database
+{
+	private $con;
+
+	public function connect(){
+		include_once('constants.php');
+		$this->con = new Mysqli(HOST,USER,PASS,DB);
+		if ($this->con) {
+			return $this->con;
+		}
+		return 'DATABASE_CONNECTION_FAIL';
+	}
 }
 
+
 ?>
+
+
+
+
+
+
+
+
+
