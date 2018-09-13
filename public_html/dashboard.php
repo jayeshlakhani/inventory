@@ -4,16 +4,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Stock Management System</title>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Clock CSS -->
+	<link rel="stylesheet" media="screen" href="includes/css/main.css"/>
+
+	<!--JS-->
+	<!-- Bootstrap -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" media="screen" href="includes/css/main.css"/>
-	<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+	<!-- Clock JS -->
 	<script language="javascript" type="text/javascript" src="includes/js/jquery.thooClock.js"></script>
+	<!-- Main JS -->
 	<script src="js/main.js"></script>
+	
 </head>
 <body>
 	
@@ -101,6 +111,10 @@
 	// Products Form
 	include_once('./templates/products.php');
 	?>
+
+
+
+
 
 </body>
 </html>
