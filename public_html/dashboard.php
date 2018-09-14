@@ -12,7 +12,7 @@
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Clock CSS -->
-	<link rel="stylesheet" media="screen" href="includes/css/main.css"/>
+	<link rel="stylesheet" media="screen" href="includes/clock/css/main.css"/>
 
 	<!--JS-->
 	<!-- Bootstrap -->
@@ -20,7 +20,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Clock JS -->
-	<script language="javascript" type="text/javascript" src="includes/js/jquery.thooClock.js"></script>
+	<script language="javascript" type="text/javascript" src="includes/clock/js/jquery.thooClock.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	
@@ -50,7 +50,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<!-- <iframe src="http://free.timeanddate.com/clock/i6eutfzq/n438/szw110/szh110/cf100/hnce1ead6" frameborder="0" width="110" height="110"></iframe> -->
-							<?php include_once("./includes/clock.php");?>
+							<?php include_once("./includes/clock/clock.php");?>
 						</div>
 						<div class="col-sm-6">
 							<div class="card">

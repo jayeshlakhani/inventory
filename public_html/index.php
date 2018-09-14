@@ -12,7 +12,7 @@
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Clock CSS -->
-	<link rel="stylesheet" media="screen" href="includes/css/main.css"/>
+	<link rel="stylesheet" media="screen" href="includes/clock/css/main.css"/>
 
 	<!--JS-->
 	<!-- Bootstrap -->
@@ -20,7 +20,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Clock JS -->
-	<script language="javascript" type="text/javascript" src="includes/js/jquery.thooClock.js"></script>
+	<script language="javascript" type="text/javascript" src="includes/clock/js/jquery.thooClock.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 
@@ -40,15 +40,15 @@
 			    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 			  </div>
 			  <div class="form-group">
-			    <label for="exampleInputPassword1">Password</label>
-			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			    <label for="exampleInputpassword">Password</label>
+			    <input type="password" class="form-control" id="exampleInputpassword" placeholder="Password">
 			  </div>
 			  <div class="form-check">
 			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
 			    <label class="form-check-label" for="exampleCheck1">Check me out</label>
 			  </div>
 			  <button type="submit" class="btn btn-primary"><i class="fa fa-lock">&nbsp;</i>Log In</button>
-			  <span><a href="register-2.php">Register</a></span>
+			  <span><a href="register.php">Register</a></span>
 			</form>
 		  </div>
 		  <div class="card-footer"><a href="#">Forget Passwor ?</a></div>
