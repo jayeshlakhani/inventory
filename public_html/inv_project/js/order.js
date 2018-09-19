@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var DOMAIN = "http://localhost/inv_project/public_html";
+	var DOMAIN = "http://localhost/inventory/public_html";
 
 	addNewRow();
 

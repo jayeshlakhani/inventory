@@ -17,7 +17,7 @@ class Database
 	}
 }
 
-//$db = new Database();
-//$db->connect();
+// $db = new Database();
+// $db->connect();
 
 ?>
